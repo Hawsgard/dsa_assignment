@@ -82,10 +82,8 @@ int main()
         fflush(stdin);
         printf("nodes - %d : ",i);
         scanf("%c", &in[i]);  
-    }  
-    
+    }
     printf("\n");
-
     printf("Input elements preorder:\n");  
     for(i=0; i<n; i++)  
     {
